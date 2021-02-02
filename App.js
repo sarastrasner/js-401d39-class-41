@@ -7,7 +7,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
     <Text style={styles.titleText}>
-      Welcome to Grant's Gripes
+      Welcome to the Movie Playlist
     </Text>        
     <Form />
       </View>

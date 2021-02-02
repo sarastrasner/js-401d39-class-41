@@ -5,9 +5,11 @@ const ClipboardComponent = (props) => {
   const [copiedText, setCopiedText] = useState('')
 
   const copyToClipboard = () => {
-    props.itemsToCopy.map(item => item.name);
-    console.log('Mapped props', props.itemsToCopy);
-    Clipboard.setString(props.itemsToCopy)
+    let items = props.itemsToCopy.map(item => item.name)
+    console.log('items', items);
+    let joinedItems = items.join(" and ");
+    console.log('joined Items', joinedItems);
+    Clipboard.setString(joinedItems);
   }
 
   const fetchCopiedText = async () => {
