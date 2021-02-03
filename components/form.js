@@ -17,13 +17,16 @@ const Form = () => {
    }
 
   const sendEmailMessage = () => {
-    sendEmail(
-        'test@gmail.com',
-        'Look at this awesome list!',
-        `Here is a list I thought you'd enjoy: ${items.map(item =>item.name)}`
-    ).then(() => {
-        console.log('Your message was successfully sent!');
-    });
+    try{
+      sendEmail(
+          'test@gmail.com',
+          'Look at this awesome list!',
+          `Here is a list I thought you'd enjoy: ${items.map(item =>item.name)}`
+      ).then(() => {
+          console.log('Your message was successfully sent!');
+      });
+    }
+    catch{error => console.log(error)};
   }
 
   return (

@@ -6,9 +6,8 @@ const ClipboardComponent = (props) => {
 
   const copyToClipboard = () => {
     let items = props.itemsToCopy.map(item => item.name)
-    console.log('items', items);
     let joinedItems = items.join(" and ");
-    console.log('joined Items', joinedItems);
+    console.log(joinedItems, 'was copied to the clipboard');
     Clipboard.setString(joinedItems);
   }
 
