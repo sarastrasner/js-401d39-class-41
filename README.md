@@ -1,11 +1,14 @@
-# Sample Snack app
+# Movie List App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+## What is it?
+Do you often find yourself scrolling through Netflix or Hulu, trying to find something to watch? Or trying to AGREE on something to watch with friends or family? If so, the Movie List App is here to help! Simply add the title of something you want to watch to the list! Enter text into the text field, then click "add to list."
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+You can then email the list, or copy its content to the clipboard to be shared via text.  
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
+## How to start the app
+- `npm start`
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
+## Compatibility
+The Movie List App is compatible with iPhone and Android devices. 
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+
