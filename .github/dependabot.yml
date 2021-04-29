@@ -1,0 +1,27 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: react-native-paper
+    versions:
+    - 4.7.2
+    - 4.8.0
+  - dependency-name: expo
+    versions:
+    - 41.0.0
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.13.10
+    - 7.13.13
+    - 7.13.14
+    - 7.13.15
+  - dependency-name: qs
+    versions:
+    - 6.10.0
+  - dependency-name: expo-constants
+    versions:
+    - 10.0.1
